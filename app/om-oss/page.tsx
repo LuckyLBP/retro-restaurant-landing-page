@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const team = [
   { name: "Bella", role: "Grundare & VD", line: "Drömmer i burgare, andas i 70-tal.", emoji: "👨‍🍳", bg: "var(--primary)" },
-  { name: "Lucas", role: "Grundare & Kökschef", line: "Smaken är hennes signatur, varje gång.", emoji: "👩‍🍳", bg: "var(--secondary)" },
+  { name: "Lucas", role: "Grundare & Kökschef", line: "Smaken är hans signatur, varje gång.", emoji: "👩‍🍳", bg: "var(--secondary)" },
   { name: "Jane", role: "Barchef", line: "Blandar cocktails som konst.", emoji: "🍸", bg: "var(--accent)" },
   { name: "Laquisha", role: "Musikansvarig", line: "Om spellistan är fel är allt fel.", emoji: "🎵", bg: "var(--dark)" },
 ]
