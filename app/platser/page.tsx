@@ -14,7 +14,7 @@ export default function Platser() {
 
       {/* ── HEADER ── */}
       <header className="header">
-        <div className="logo">VIBE*BITE</div>
+        <a href="/" className="logo" style={{ textDecoration: "none", color: "inherit" }}>VIBE*BITE</a>
         <nav>
           <a href="/meny">Meny</a>
           <a href="#">Vibe Check</a>
@@ -413,7 +413,7 @@ export default function Platser() {
           <h4>Navigering</h4>
           <ul>
             <li><a href="/meny" style={{ color: "inherit", textDecoration: "none" }}>Meny</a></li>
-            <li><a href="#" style={{ color: "inherit", textDecoration: "none" }}>Om oss</a></li>
+            <li><a href="/om-oss" style={{ color: "inherit", textDecoration: "none" }}>Om oss</a></li>
             <li><a href="#" style={{ color: "inherit", textDecoration: "none" }}>Integritetspolicy</a></li>
             <li><a href="#" style={{ color: "inherit", textDecoration: "none" }}>Villkor</a></li>
           </ul>

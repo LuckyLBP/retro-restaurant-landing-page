@@ -39,7 +39,7 @@ export default function Home() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VIBE*BITE</div>
+        <a href="/" className="logo" style={{ textDecoration: "none", color: "inherit" }}>VIBE*BITE</a>
         <nav>
           <a href="/meny">Meny</a>
           <a href="#">Vibe Check</a>
@@ -61,10 +61,10 @@ export default function Home() {
               70-talsestetik med en modern twist. Lokalt inköpt, skyhögt gott, och strikt för dem som vibar.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
-              <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
+              <a href="/boka" className="btn-cta" style={{ background: "var(--primary)", color: "white", textDecoration: "none", display: "inline-block" }}>
                 Beställ nu
-              </button>
-              <a href="/meny" className="btn-cta" style={{ background: "white" }}>
+              </a>
+              <a href="/meny" className="btn-cta" style={{ background: "white", textDecoration: "none", display: "inline-block" }}>
                 Se menyn
               </a>
             </div>
@@ -191,9 +191,9 @@ export default function Home() {
               diner-stolar är varje hörn designat för ditt nästa dump. Inga reservationer behövs till huvudrummet,
               ta bara med energin.
             </p>
-            <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
+            <a href="/om-oss" className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white", textDecoration: "none", display: "inline-block" }}>
               Vår historia
-            </button>
+            </a>
           </div>
           <div className="vibe-img"></div>
         </section>
@@ -247,7 +247,7 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
+              <a href="/om-oss" style={{ color: "inherit", textDecoration: "none" }}>
                 Om oss
               </a>
             </li>

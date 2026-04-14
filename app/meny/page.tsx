@@ -68,7 +68,7 @@ export default function Meny() {
 
       {/* ── HEADER ── */}
       <header className="header">
-        <div className="logo">VIBE*BITE</div>
+        <a href="/" className="logo" style={{ textDecoration: "none", color: "inherit" }}>VIBE*BITE</a>
         <nav>
           <a href="/meny" style={{ color: "var(--primary)", textDecoration: "underline" }}>Meny</a>
           <a href="#">Vibe Check</a>
@@ -632,7 +632,7 @@ export default function Meny() {
               <a href="/meny" style={{ color: "inherit", textDecoration: "none" }}>Meny</a>
             </li>
             <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>Om oss</a>
+              <a href="/om-oss" style={{ color: "inherit", textDecoration: "none" }}>Om oss</a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>Integritetspolicy</a>
