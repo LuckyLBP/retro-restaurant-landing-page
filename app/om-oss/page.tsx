@@ -186,7 +186,7 @@ export default function OmOss() {
               }}
             >
               VIBE*BITE startade 2025 i ett litet kök i Borås med en enkel övertygelse — att bra mat ska
-              kännas lika bra som den smakar. Grundarna Lucas och Kim tröttnade på att välja mellan god mat
+              kännas lika bra som den smakar. Grundarna Lucas och Bella tröttnade på att välja mellan god mat
               och god stämning. Varför inte ha båda? Med en kärlek för 70-talets estetik och en hunger efter
               riktiga smaker skapade de ett ställe där varje besök känns som en händelse.
             </p>
@@ -225,7 +225,7 @@ export default function OmOss() {
                 opacity: 0.6,
               }}
             >
-              — Lucas &amp; Kim, Grundare
+              — Lucas &amp; Bella, Grundare
             </p>
           </div>
         </section>
