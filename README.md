@@ -44,9 +44,3 @@ npm run dev
 - Restaurant JSON-LD schema på landningssidan
 - Menu JSON-LD schema på menysidan
 - Canonical URLs på båda sidor
-
----
-
-## Licens
-
-MIT © [LuckyLBP](https://github.com/LuckyLBP)

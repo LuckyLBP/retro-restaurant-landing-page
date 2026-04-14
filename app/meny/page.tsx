@@ -73,9 +73,9 @@ export default function Meny() {
           <a href="/meny" style={{ color: "var(--primary)", textDecoration: "underline" }}>Meny</a>
           <a href="#">Vibe Check</a>
           <a href="#">Evenemang</a>
-          <a href="#">Platser</a>
+          <a href="/platser">Platser</a>
         </nav>
-        <button className="btn-cta">Boka ett bord</button>
+        <a href="/boka" className="btn-cta">Boka ett bord</a>
       </header>
 
       <main>
