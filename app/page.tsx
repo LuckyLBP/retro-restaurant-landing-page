@@ -86,8 +86,8 @@ export default function Home() {
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; ★ BURGARE SOM SMÄLLER ★ CRAFT COCKTAILS ★ RETRO VIBES ONLY ★ ÖPPET TILL 01:00 ★ BÄST I STAN ★
-            BURGARE SOM SMÄLLER ★ CRAFT COCKTAILS ★ RETRO VIBES ONLY ★ ÖPPET TILL 01:00 ★ BÄST I STAN
+            &nbsp; ★ BURGARE SOM SMAKAR ★ CRAFT COCKTAILS ★ RETRO VIBES ONLY ★ ÖPPET TILL 01:00 ★ BÄST I STAN ★
+            BURGARE SOM SMAKAR ★ CRAFT COCKTAILS ★ RETRO VIBES ONLY ★ ÖPPET TILL 01:00 ★ BÄST I STAN
           </div>
         </div>
 
