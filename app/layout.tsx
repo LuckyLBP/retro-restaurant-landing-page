@@ -7,26 +7,36 @@ import "./globals.css"
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "VIBE*BISTRO - No Cap, Just Flavor",
+  title: {
+    default: "VIBE*BITE – Retro Burgare & Pizza | Allt är Fresh",
+    template: "%s | VIBE*BITE",
+  },
   description:
-    "Serving 70s aesthetics with a modern twist. Locally sourced, highkey delicious, and strictly for the vibers.",
-  generator: "v0.app",
+    "VIBE*BITE serverar smashburgare, neapolitansk pizza och craft cocktails med 70-talsestetik. Lokalt inköpt, skyhögt gott – öppet till 02:00 på helger.",
   icons: {
-    icon: [
+    icon: "/vite*bite.ico",
+  },
+  openGraph: {
+    title: "VIBE*BITE – Retro Burgare & Pizza",
+    description:
+      "Smashburgare, neapolitansk pizza och craft cocktails med 70-talsestetik. Lokalt inköpt, skyhögt gott – öppet till 02:00 på helger.",
+    images: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        url: "/vibe*bite_logo.png",
+        width: 1200,
+        height: 630,
+        alt: "VIBE*BITE – Retro Burgare & Pizza",
       },
     ],
-    apple: "/apple-icon.png",
+    locale: "sv_SE",
+    type: "website",
+    siteName: "VIBE*BITE",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "VIBE*BITE – Retro Burgare & Pizza",
+    description: "Smashburgare, pizza och craft cocktails med 70-talsestetik. Allt är fresh.",
+    images: ["/vibe*bite_logo.png"],
   },
 }
 
@@ -36,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="sv">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

@@ -1,35 +1,52 @@
-# retro-restaurant-landing-page
+# VIBE\*BITE
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+Retro-inspirerad restaurangsida för **VIBE\*BITE** — en svensk restaurang med 70-talsestetik, smashburgare, neapolitansk pizza och craft cocktails.
 
-## Built with v0
+Byggd med **Next.js** och **Tailwind CSS**. 
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+---
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_9lFjFplQUmRnRPzwhUyU3pBUAaqn)
+## Sidor
 
-## Getting Started
+| Sida | Route | Beskrivning |
+|------|-------|-------------|
+| Landningssida | `/` | Hero, kockens favoriter, vibe-sektion och Instagram-grid |
+| Meny | `/meny` | Komplett meny med burgare, pizza, drinkar och smått & gott |
 
-First, run the development server:
+---
+
+## Stack
+
+- [Next.js 15](https://nextjs.org) — App Router
+- [Tailwind CSS](https://tailwindcss.com) — utility-klasser
+- [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) — brödtext
+- [Syne](https://fonts.google.com/specimen/Syne) — rubriker
+- [Playfair Display](https://fonts.google.com/specimen/Playfair+Display) — accenttext & priser
+- [Vercel Analytics](https://vercel.com/analytics)
+
+---
+
+## Kom igång
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Öppna [http://localhost:3000](http://localhost:3000) i webbläsaren.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-## Learn More
+## SEO
 
-To learn more, take a look at the following resources:
+- `lang="sv"` på `<html>`
+- Per-sida metadata med OpenGraph och Twitter Card
+- Restaurant JSON-LD schema på landningssidan
+- Menu JSON-LD schema på menysidan
+- Canonical URLs på båda sidor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+---
 
-<a href="https://v0.app/chat/api/kiro/clone/LuckyLBP/retro-restaurant-landing-page" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>
+## Licens
+
+MIT © [LuckyLBP](https://github.com/LuckyLBP)
