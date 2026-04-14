@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Space_Grotesk } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import PizzaCursor from "./PizzaCursor"
 import "./globals.css"
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] })
@@ -58,6 +59,7 @@ export default function RootLayout({
       </head>
       <body className={`${spaceGrotesk.className} antialiased`}>
         {children}
+        <PizzaCursor />
         <Analytics />
       </body>
     </html>
