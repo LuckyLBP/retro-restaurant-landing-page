@@ -7,6 +7,7 @@ import "./globals.css"
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://retro-restaurant-landing-page.vercel.app"),
   title: {
     default: "VIBE*BITE – Retro Burgare & Pizza | Allt är Fresh",
     template: "%s | VIBE*BITE",
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
       "Smashburgare, neapolitansk pizza och craft cocktails med 70-talsestetik. Lokalt inköpt, skyhögt gott – öppet till 02:00 på helger.",
     images: [
       {
-        url: "/vibe*bite_logo.png",
+        url: "/og-image.jpeg",
         width: 1200,
         height: 630,
         alt: "VIBE*BITE – Retro Burgare & Pizza",
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "VIBE*BITE – Retro Burgare & Pizza",
     description: "Smashburgare, pizza och craft cocktails med 70-talsestetik. Allt är fresh.",
-    images: ["/vibe*bite_logo.png"],
+    images: ["/og-image.jpeg"],
   },
 }
 

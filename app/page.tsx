@@ -42,8 +42,7 @@ export default function Home() {
         <a href="/" className="logo" style={{ textDecoration: "none", color: "inherit" }}>VIBE*BITE</a>
         <nav>
           <a href="/meny">Meny</a>
-          <a href="#">Vibe Check</a>
-          <a href="#">Evenemang</a>
+          <a href="/om-oss">Om oss</a>
           <a href="/platser">Platser</a>
         </nav>
         <a href="/boka" className="btn-cta">Boka ett bord</a>
